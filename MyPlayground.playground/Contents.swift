@@ -73,6 +73,7 @@ for item in anyTypeArray {
     }
 }
 
+// Array de tuplas
 var tupleArray: [(String, UInt)] = [
     ("Fulano", 10),
     ("Beltrano", 20),
