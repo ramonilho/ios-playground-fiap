@@ -116,8 +116,8 @@ prefix func >- (right: Int) -> Int {
 
 // Operador postfix: opera depois do operando
 postfix operator -<
-postfix func -< (right: Int) -> Int {
-    return right / right * (-1)
+postfix func -< (left: Int) -> Int {
+    return left / left * (-1)
 }
 5-<
 
